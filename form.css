@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    height: 50vh;
+    width: 650px;
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    border: 0 solid rgba(76, 109, 218, 0.125);
+    background-color: white;
+    
+}
+.content{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    position: relative;
+    top: 10%;
+    color: #34629a;
+    font-weight: lighter;
+    line-height: 32px;
+    font-family: inherit;
+}
+form{
+    text-align: center;
+    position:relative;
+    top: 10%;
+}
+ .input-container1 i{
+    position: absolute;
+    top: 6%;
+    left: 93%;
+    color: rgb(95, 93, 93);
+}
+.input-container2 i{
+    position: absolute;
+    top: 27%;
+    left: 93%;
+    color: rgb(95, 93, 93);
+}
+.input-container1 > input[type=text],
+.input-container2 > input[type=password]{
+    font-size: 15px;
+    display: flex;
+    border: 1px solid #dbdde1;
+    padding: 10px;
+    border-radius: 5px;
+    width: 600px;
+    margin: 10px 15px;
+}
+.forgot{
+    text-align: start;
+    padding: 0px 16px;
+}
+.forgot a{
+    color: rgb(95, 93, 93);
+}
+.forgot a:hover{
+    text-decoration: none;
+    transition: color .15s ease-in-out
+}
+.button1{
+    width: 630px;
+    margin-top: 15px;
+    padding: 7px;
+    background-color: #007bff;
+    border: none;
+   border-radius: 5px;
+   color: white;
+   font-size: 17px;
+   cursor: pointer;
+}
+.button1:hover{
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background-color: #086fd6;
+}
+.button2{
+    width: 630px;
+    margin-top: 15px;
+    padding: 7px;
+    background-color: #17a2b8;
+    border: none;
+   border-radius: 5px;
+   color: white;
+   font-size: 17px;
+   cursor: pointer;
+}
+.button2:hover{
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background-color: #137d8d;
+}
